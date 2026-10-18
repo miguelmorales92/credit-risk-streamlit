@@ -1,0 +1,33 @@
+
+# Entorno virtual
+credit_risk_env/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Archivos del sistema
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Archivos temporales
+*.log
+.ipynb_checkpoints/
+
+# Configuraciones de agentes de IA
+.agents/
+.claude/
